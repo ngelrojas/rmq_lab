@@ -1,0 +1,14 @@
+
+# first time
+- docker pull rabbitmq
+
+# first time for run 
+- docker run -d --hostname rabbitmq_lab --name rabbitmq_lab -p 15672:15672 rabbitmq:3-management
+
+# once the rabbitmq is run and then stop, the next instances you need start docker 
+# and not following steps above lines
+
+- docker start rabbitmq_lab
+
+  # docker stop
+- docker stop rabbitmq_lab
