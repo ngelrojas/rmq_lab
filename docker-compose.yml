@@ -15,4 +15,4 @@ services:
 
 networks:
   rabbitmq_labx:
-    driver: bridge
+    external: true 
